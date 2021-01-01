@@ -1,0 +1,28 @@
+From cb0eb32c1fb6d1e66d25e58ecb241da69d77b5f5 Mon Sep 17 00:00:00 2001
+From: Sean Schoonover <sean@root-base.com>
+Date: Fri, 1 Jan 2021 12:33:49 -0500
+Subject: [PATCH] Update Makefile to add "-eudyptula" to EXTRAVERSION
+
+Add "-eudyptula" to EXTRAVERSION for task 3 of the Eudyptula Challenge
+
+Signed-off-by: Sean Schoonover <sean@root-base.com>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 3d328b7ab200..ad07f704435d 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 11
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc1
++EXTRAVERSION = -rc1-eudyptula
+ NAME = Kleptomaniac Octopus
+ 
+ # *DOCUMENTATION*
+-- 
+2.20.1
+
