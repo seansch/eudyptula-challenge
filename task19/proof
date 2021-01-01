@@ -1,7 +1,0 @@
-# insmod ./task19.ko
-# lsmod | grep task19
-task19                 12420  0 
-# date; echo "Sending email..."; python -c 'import smtplib; s = smtplib.SMTP("127.0.0.1"); s.sendmail("vagrant@localhost", "vagrant@localhost", "Subject: 5d658d788cc9"); s.quit()'; dmesg -T | tail -1
-Sun Nov 26 04:32:18 GMT 2017
-Sending email...
-[Sun Nov 26 04:32:18 2017] 5d658d788cc9

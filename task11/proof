@@ -1,5 +1,0 @@
-root@debian-jessie:~# cat /sys/devices/pci0000:00/0000:00:0b.0/usb1/1-1/id
-5d658d788cc9
-root@debian-jessie:~# echo $(cat /sys/devices/pci0000:00/0000:00:0b.0/usb1/1-1/id) > /sys/devices/pci0000:00/0000:00:0b.0/usb1/1-1/id
-root@debian-jessie:~# echo $?
-0

@@ -1,5 +1,0 @@
-vagrant@debian-jessie:~$ ./task15
->> sys_eudyptula(0x01, 0x01)
-Return code: -1
->> sys_eudyptula(0x5d65, 0x8d788cc9)
-Return code: 0

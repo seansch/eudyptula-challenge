@@ -1,8 +1,0 @@
-root@jessie:~# insmod /vagrant/task17.ko 
-root@jessie:~# ls -l /dev/eudyptula 
-c-w--w--w- 1 root root 10, 59 Sep 11 03:38 /dev/eudyptula
-root@jessie:~# ps -ef | grep eudyptul[a]
-root      5475     2  0 03:38 ?        00:00:00 [eudyptula]
-root@jessie:~# rmmod task17
-root@jessie:~# ps -ef | grep eudyptul[a]
-root@jessie:~# 
