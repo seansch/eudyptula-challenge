@@ -1,0 +1,14 @@
+seans@computater:~/eudyptula-challenge/task05$ sudo ln -s /home/seans/eudyptula-challenge/task05/task05.ko /usr/lib/modules/5.8.0-33-generic/task05.ko
+seans@computater:~/eudyptula-challenge/task05$ sudo depmod -a
+seans@computater:~/eudyptula-challenge/task05$ lsmod | grep task05
+seans@computater:~/eudyptula-challenge/task05$ # Plug in keyboard
+seans@computater:~/eudyptula-challenge/task05$ lsmod | grep task05
+task05                 16384  0
+seans@computater:~/eudyptula-challenge/task05$ sudo dmesg | tail
+[1072059.577973] input: USB Keyboard as /devices/pci0000:00/0000:00:01.2/0000:20:00.0/0000:21:08.0/0000:2a:00.3/usb3/3-3/3-3:1.0/0003:04D9:0169.0019/input/input60
+[1072059.635071] hid-generic 0003:04D9:0169.0019: input,hidraw4: USB HID v1.10 Keyboard [USB Keyboard] on usb-0000:2a:00.3-3/input0
+[1072059.659964] input: USB Keyboard Consumer Control as /devices/pci0000:00/0000:00:01.2/0000:20:00.0/0000:21:08.0/0000:2a:00.3/usb3/3-3/3-3:1.1/0003:04D9:0169.001A/input/input61
+[1072059.718968] input: USB Keyboard System Control as /devices/pci0000:00/0000:00:01.2/0000:20:00.0/0000:21:08.0/0000:2a:00.3/usb3/3-3/3-3:1.1/0003:04D9:0169.001A/input/input62
+[1072059.719031] hid-generic 0003:04D9:0169.001A: input,hidraw5: USB HID v1.10 Device [USB Keyboard] on usb-0000:2a:00.3-3/input1
+[1072059.734999] Hello World!
+
